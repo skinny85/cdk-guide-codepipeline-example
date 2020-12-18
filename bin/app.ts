@@ -13,4 +13,3 @@ new PipelineStack(app, 'PipelineDeployingLambdaStack', {
 });
 
 app.synth();
-

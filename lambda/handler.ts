@@ -1,4 +1,4 @@
-const GREETING = 'Hello, AWS!';
+const GREETING = 'Hello, CDK Slack!';
 
 export async function main() {
   console.log(GREETING);
