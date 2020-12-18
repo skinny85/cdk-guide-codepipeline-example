@@ -2,7 +2,7 @@
   "name": "cdk-guide-codepipeline-example",
   "version": "0.1.0",
   "bin": {
-    "cdk-guide-codepipeline-example": "bin/cdk-guide-codepipeline-example.js"
+    "cdk-guide-codepipeline-example": "bin/app.js"
   },
   "scripts": {
     "build": "tsc",
@@ -22,6 +22,11 @@
   },
   "dependencies": {
     "@aws-cdk/core": "1.79.0",
+    "@aws-cdk/aws-codebuild": "1.79.0",
+    "@aws-cdk/aws-codedeploy": "1.79.0",
+    "@aws-cdk/aws-codepipeline": "1.79.0",
+    "@aws-cdk/aws-codepipeline-actions": "1.79.0",
+    "@aws-cdk/aws-lambda": "1.79.0",
     "source-map-support": "^0.5.16"
   }
 }
